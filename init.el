@@ -19,8 +19,8 @@
 
 
 ;; Path to nano emacs modules (mandatory)
-(add-to-list 'load-path "/Users/rougier/Documents/GitHub/nano-emacs")
-(add-to-list 'load-path ".")
+(add-to-list 'load-path "~/GitHub/nano-emacs")
+(add-to-list 'load-path "~/.emacs.d/elisp")
 
 ;; Default layout (optional)
 (require 'nano-layout)
@@ -39,7 +39,7 @@
 ;; with e.g. `touch nano-custom.el` in the folder containing this file.
 (let* ((this-file  (or load-file-name (buffer-file-name)))
        (this-dir  (file-name-directory this-file))
-       (custom-path  (concat this-dir "nano-custom.el")))
+       (custom-path  (concat this-dir "custom/nano-custom.el")))
   (when (and (eq nil user-init-file)
              (eq nil custom-file)
              (file-exists-p custom-path))
