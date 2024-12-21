@@ -48,10 +48,10 @@
 (setq cursor-in-non-selected-windows nil)
 
 ;; Text mode is initial mode
-(setq initial-major-mode 'text-mode)
+;; (setq initial-major-mode 'text-mode)
 
 ;; Text mode is default major mode
-(setq default-major-mode 'text-mode)
+;; (setq default-major-mode 'text-mode)
 
 ;; Moderate font lock
 (setq font-lock-maximum-decoration nil)
