@@ -33,7 +33,7 @@
 
 
 
-(defcustom nano-font-family-monospaced "Roboto Mono"
+(defcustom nano-font-family-monospaced "Iosevka Comfy" ;; nee: Roboto Mono
   "Name of the font-family to use for nano.
 Defaults to Roboto Mono. Customizing this might lead to conflicts
 if the family does not have sufficient bold/light etc faces."
@@ -48,7 +48,7 @@ Defaults to nil."
   :group 'nano
   :type 'string)
 
-(defcustom nano-font-size 14
+(defcustom nano-font-size 16
   "Default value for the font size of nano-theme in pt units.
 Note: to change this after startup, call
 \(nano-faces\) and \(nano-themes\)."
