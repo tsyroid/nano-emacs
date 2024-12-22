@@ -1,2 +1,5 @@
+auto-save-list/
+backups/
+history/
 nano-custom.el
 custom/
