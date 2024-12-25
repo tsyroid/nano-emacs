@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: demo
+# key: <demo
+# --
+
+#+BEGIN_SRC ${1:syntax}
+$0
+#+END_SRC

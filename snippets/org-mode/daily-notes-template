@@ -1,0 +1,37 @@
+# -*- mode: snippet -*-
+# name: daily-notes-template
+# key: <dnt
+# --
+#+TITLE: Daily Notes - `(format-time-string "%Y.%m.%d")`
+#+AUTHOR: Taz Syroid (taz@syroidmanor.com)
+#+DATE: <`(format-time-string "%Y-%m-%d %a %H:%M")`>
+#+TAGS:
+#+OPTIONS:
+
+* QOTD
+
+#+BEGIN_QUOTE
+  /quote-of-the-day/
+#+END_QUOTE
+
+* WOTD
+
+#+BEGIN_EXAMPLE
+~WOTD~
+/pronounciation/
+**type**
+1. ex one
+2. ex two
+#+END_EXAMPLE
+
+* HOUSEHOLD
+** $0
+
+* IT
+
+* BACKBURNER
+* REF NOTES
+
+
+* --- <EOF> ---
+

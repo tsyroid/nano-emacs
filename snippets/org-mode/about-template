@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: about-template
+# key: <abt
+# --
+#+TITLE: About: ${1:about?}
+#+AUTHOR: Taz Syroid (taz@syroidmanor.com)
+#+REVISED: `(format-time-string "%b %d %Y")`
+
+* OVERVIEW
+
+:PROPERTIES:
+:NAME: $1
+:MAIN: $0
+:NEWS:
+:DOCUMENTATION:
+:GITHUB: 
+:WIKI:
+:DOWNLOAD:
+:END:
+
+* NOTES
+
+
+* RESOURCES
+** {tutorial?}
+** {maintainer? {{LINK}}}

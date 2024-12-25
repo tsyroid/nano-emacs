@@ -1,5 +1,7 @@
 auto-save-list/
 backups/
-history/
-nano-custom.el
 custom/
+history/
+straight/
+
+nano-custom.el

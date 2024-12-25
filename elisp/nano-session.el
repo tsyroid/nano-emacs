@@ -49,6 +49,10 @@
 (setq savehist-file "~/.emacs.d/history/nano-savehist")
 (savehist-mode 1)
 
+;; Really not sure where (which module) to put this...
+(global-visual-line-mode t)
+
+
 ;; Remove text properties for kill ring entries
 ;; See https://emacs.stackexchange.com/questions/4187
 (defun unpropertize-kill-ring ()
@@ -62,7 +66,6 @@
 
 ;; Bookmarks
 (setq bookmark-default-file "~/.emacs.d/history/nano-bookmark")
-
 
 ;; Backup
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups"))

@@ -1,0 +1,39 @@
+# -*- mode: snippet -*-
+# name: finanical-notes-template
+# key: <fnt
+# --
+#+TITLE: Financials - `(format-time-string "%Y.%m.%d")`
+#+AUTHOR: Taz Syroid (taz@syroidmanor.com)
+#+DATE: <`(format-time-string "%Y-%m-%d %a %H:%M")`>
+#+TAGS: financials
+#+OPTIONS:
+
+* ACCOUNTS
+
+** Simplii, Chequing: $
+** Simplii, Savings: $
+** Coast Capital, Chequing: $
+** Coast Capital, Savings: $
+** EQ Bank, Account: $
+** EQ Bank, Card: $
+** Tangerine: $0.00 :DORMANT:
+
+** Misc, Visa Deposit: $1000.00
+** Misc, Ledger: $
+** Misc, Paypal: $30.00
+
+* IN
+
+
+* OUT
+
+
+* CASH
+  $30.00
+
+* PENDING
+[link transfer from daily notes]
+** [ ] Decision: Costco membership? When due? [2024-02-28] $65
+** [ ] Decision: Amazon Prime? When due? [2025-04-15] $99
+** [ ] Bill: Telus Mobility [2025-01-02] $77.28
+** [ ] Bill: Telus Home [2025-01-07] $61.60

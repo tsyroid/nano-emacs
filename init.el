@@ -15,7 +15,7 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program. If not, see <http://www.gnu.org/licenses/>.
 ;; ---------------------------------------------------------------------
-(package-initialize)
+;; (package-initialize)
 
 
 ;; Path to nano emacs modules (mandatory)
@@ -91,5 +91,14 @@
 ;; Help (optional)
 (unless (member "-no-help" command-line-args)
   (require 'nano-help))
+
+;; Time to add a package manager to this build
+;; Thought long and hard about this, and I kinda feel like
+;; I'm not being 'true' to the author's intent...
+
+(require 'bootstrap-straight)
+
+(require 'pkg-yasnippet)
+(require 'pkg-test-try)
 
 (provide 'nano)

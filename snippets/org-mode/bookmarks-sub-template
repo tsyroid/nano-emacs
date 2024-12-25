@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: about-template
+# key: <bst
+# --
+#+TITLE: ${1:filename?}
+#+AUTHOR: Taz Syroid (taz@syroidmanor.com)
+#+REVISED: `(format-time-string "%b %d %Y")`
+#+DESCRIPTION: Bookmarks (Sub) /TITLE/
+#+PROPERTIES: de-tangle stuff goes here
+#+STARTUP:
+#+OPTIONS: toc:2
+
+
+* TABLE-OF-CONTENTS :toc:
+
+
+* ${2:sub-type?} (Sub-Master)
+
+$0
